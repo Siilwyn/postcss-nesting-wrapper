@@ -1,0 +1,12 @@
+{
+  "name": "@siilwyn/postcss-nested-wrapper",
+  "version": "1.0.0",
+  "exports": "./main.ts",
+  "publish": {
+    "include": [
+      "package.json",
+      "license.md",
+      "main.ts"
+    ]
+  }
+}

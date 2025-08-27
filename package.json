@@ -1,5 +1,5 @@
 {
-  "name": "postcss-nested-wrapper",
+  "name": "@siilwyn/postcss-nested-wrapper",
   "version": "1.0.0",
   "type": "module",
   "exports": "./main.ts",
