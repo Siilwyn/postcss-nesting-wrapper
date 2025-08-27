@@ -1,0 +1,46 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@std/assert@*": "1.0.14",
+    "jsr:@std/internal@^1.0.10": "1.0.10",
+    "npm:postcss@^8.5.6": "8.5.6"
+  },
+  "jsr": {
+    "@std/assert@1.0.14": {
+      "integrity": "68d0d4a43b365abc927f45a9b85c639ea18a9fab96ad92281e493e4ed84abaa4",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.10": {
+      "integrity": "e3be62ce42cab0e177c27698e5d9800122f67b766a0bea6ca4867886cbde8cf7"
+    }
+  },
+  "npm": {
+    "nanoid@3.3.11": {
+      "integrity": "sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==",
+      "bin": true
+    },
+    "picocolors@1.1.1": {
+      "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA=="
+    },
+    "postcss@8.5.6": {
+      "integrity": "sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==",
+      "dependencies": [
+        "nanoid",
+        "picocolors",
+        "source-map-js"
+      ]
+    },
+    "source-map-js@1.2.1": {
+      "integrity": "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA=="
+    }
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:postcss@^8.5.6"
+      ]
+    }
+  }
+}
