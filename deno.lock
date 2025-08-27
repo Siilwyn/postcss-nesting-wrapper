@@ -3,7 +3,8 @@
   "specifiers": {
     "jsr:@std/assert@*": "1.0.14",
     "jsr:@std/internal@^1.0.10": "1.0.10",
-    "npm:postcss@*": "8.5.6"
+    "npm:postcss@*": "8.5.6",
+    "npm:postcss@^8.5.6": "8.5.6"
   },
   "jsr": {
     "@std/assert@1.0.14": {
@@ -35,5 +36,10 @@
     "source-map-js@1.2.1": {
       "integrity": "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA=="
     }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:postcss@^8.5.6"
+    ]
   }
 }

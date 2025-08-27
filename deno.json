@@ -8,5 +8,8 @@
       "license.md",
       "main.ts"
     ]
+  },
+  "imports": {
+    "postcss": "npm:postcss@^8.5.6"
   }
 }

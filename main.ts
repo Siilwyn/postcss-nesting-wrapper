@@ -1,4 +1,4 @@
-import type { PluginCreator } from "npm:postcss";
+import type { PluginCreator } from "postcss";
 
 type pluginOptions = {
   parentSelector: string;
